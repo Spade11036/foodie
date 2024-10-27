@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(217, 65, 255);
+    padding:20px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1;
+}
+.nav-links{
+    position: relative;
+}
+.nav-links a{
+    text-decoration: none;
+    padding:0 15px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.nav-links a.active{
+    color:white;
+}
+.nav-links a:hover{
+    color:blue;
+    text-decoration: underline;
+}
+.logo{
+    position: relative;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: monospace;
+    text-decoration: none;
+    cursor: pointer;
+    transition: .2s;
+}
+.logo:hover{
+    color:blue;
+    text-shadow: 0 0 20px rgb(89, 238, 249),0 0 45px blue;
+    scale: 1.2;
+}
+span{
+    color:blue
+}
+.btncontact{
+    background-color: rgb(252, 252, 252);
+    padding:6px 10px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 0 20px rgb(89, 238, 249);
+}
+
+.dessert-container{
+    display:flex;
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(https://media.istockphoto.com/id/1395723007/vector/pink-orange-yellow-and-red-color-gradient-summer-defocused-blurred-motion-abstract.jpg?s=612x612&w=0&k=20&c=qf1HnidyUgJiMLa4bHHomssiu7jdNEL7j-ezmiFrGb8=);
+    justify-content: start;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: auto;
+}
+.dessert-container::-webkit-scrollbar{
+    display: none;
+}
+.dessert-content{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    margin: 0 15%;
+    padding:5% 50px;
+    gap:2em;
+    height: 100%;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.d1{
+    display: block;
+    flex-direction: column;
+    position: relative;
+    top:60px;
+    left:90px;
+    width: 250px;
+    height: 250px;
+}
+.d1 a img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10%;
+    box-shadow: 0 0 10px red;
+    transition: 0.2s;
+    cursor: pointer;
+}
+.d1 a img:hover{
+    scale: 0.9;
+}
+.d1 h3{
+    margin-top:10px;
+    text-align: center;
+}
+
+.d2{
+    display: block;
+    flex-direction: column;
+    position: relative;
+    top:60px;
+    left:90px;
+    width: 250px;
+    height: 250px;
+}
+.d2 a img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10%;
+    cursor: pointer;
+    transition: 0.2s;
+    box-shadow: 0 0 10px red;
+}
+.d2 a img:hover{
+    scale:0.9;
+}
+.d2 h3{
+    margin-top:10px;
+    text-align: center;
+}
+.d3{
+    display: block;
+    flex-direction: column;
+    position: relative;
+    top: 60px;
+    left: 90px;
+    width: 250px;
+    height: 250px;
+}
+.d3 a img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10%;
+    box-shadow: 0 0 10px red;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.d3 a img:hover{
+    scale:0.9;
+}
+.d3 h3{
+    margin-top:10px;
+    text-align: center;
+}
+.d4{
+    display:block;
+    flex-direction: column;
+    position: relative;
+    top:110px;
+    left:90px;
+    width: 250px;
+    height: 250px;
+}
+.d4 a img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10%;
+    box-shadow: 0 0 10px red;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.d4 a img:hover{
+    scale:0.9;
+}
+.d4 h3{
+    margin-top:10px;
+    text-align: center;
+}
+
+.d5{
+    display:block;
+    flex-direction: column;
+    position: relative;
+    top:110px;
+    left:90px;
+    width: 250px;
+    height: 250px;
+}
+.d5 a img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10%;
+    box-shadow: 0 0 10px red;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.d5 a img:hover{
+    scale:0.9;
+}
+.d5 h3{
+    margin-top:10px;
+    text-align: center;
+}
+.d6{
+    display:block;
+    flex-direction: column;
+    position: relative;
+    top:110px;
+    left:90px;
+    width: 250px;
+    height: 250px;
+}
+.d6 a img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10%;
+    box-shadow: 0 0 10px red;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.d6 a img:hover{
+    scale:0.9;
+}
+.d6 h3{
+    margin-top:10px;
+    text-align: center;
+}
